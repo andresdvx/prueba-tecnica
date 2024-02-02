@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Mooli&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    font-family: 'Hind Madurai', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-ms-reveal {
+    display: none;
+}
