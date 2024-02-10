@@ -1,11 +1,11 @@
 import mysql2 from "mysql2/promise";
 
 const conn = mysql2.createPool({
-  database: "railway",
-  port: "29212",
-  host: "viaduct.proxy.rlwy.net",
-  user: "root",
-  password: "CcaGeG6CH2b1Ba2-h6bfDg6DfCdd32DE",
+  database: process.env.DATABASE,
+  port: process.env.PORT,
+  host: process.env.HOST,
+  user: process.env.USER,
+  password: process.env.PASSWORD
 });
 
 export default conn;
